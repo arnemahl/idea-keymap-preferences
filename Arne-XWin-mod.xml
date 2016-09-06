@@ -1,53 +1,61 @@
 <keymap version="1" name="Arne-XWin-mod" parent="Default for XWin">
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="EditorJoinLines">
-    <keyboard-shortcut first-keystroke="shift control J" />
-    <keyboard-shortcut first-keystroke="control J" />
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="control N" />
-    <keyboard-shortcut first-keystroke="control P" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="InsertLiveTemplate" />
   <action id="MainMenu">
-    <keyboard-shortcut first-keystroke="shift control P" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="MoveLineDown" />
   <action id="MoveLineUp" />
   <action id="MoveStatementUp" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
-    <keyboard-shortcut first-keystroke="control PAGE_DOWN" />
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
   <action id="ParameterInfo">
-    <keyboard-shortcut first-keystroke="control COMMA" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="alt LEFT" />
-    <keyboard-shortcut first-keystroke="control PAGE_UP" />
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="ResizeToolWindowUp" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
 </keymap>

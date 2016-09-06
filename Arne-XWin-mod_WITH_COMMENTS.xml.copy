@@ -1,0 +1,57 @@
+<keymap version="1" name=" Arne-XWin-mod" parent="Default for XWin">
+  <!-- DELETED -->
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
+  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageTop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="InsertLiveTemplate" />
+  <!-- CHANGED -->
+  <!-- parameters -- conflicted with GotoClass -->
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
+  <!-- open file/class -- same as Sublime Text -->
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift control P" />
+  </action>
+  <!-- join lines -- same as Sublime Text -->
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="control J" />
+  </action>
+  <!-- switching tabs -- same as every other application -->
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="control PAGE_UP" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control PAGE_DOWN" />
+  </action>
+  <!-- clone caret -- same as Sublime Text -->
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <!-- IDK WHAT THIS IS -->
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>
