@@ -9,12 +9,16 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl 7" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="ctrl j" />
@@ -25,6 +29,7 @@
     <keyboard-shortcut first-keystroke="alt f8" />
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoBookmark7" />
   <action id="GotoClass">
@@ -50,6 +55,12 @@
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="ResizeToolWindowUp" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="alt s" />
@@ -70,4 +81,6 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="ToggleBookmark7" />
+  <action id="Uml.ShowDiff" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
